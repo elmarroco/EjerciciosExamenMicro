@@ -21,5 +21,5 @@ IRET           ; Regresa a la linea desde donde se disparo la interrupción
                ; Al entrar a la interrupcion ax se carga con 10H, osea 16
                ; Se sale de la interrupcion y de vuelve a realizar la division
                ; Donde esta vez es 15/16, AL = 0, AH = 15
-               ; Se carga AX con 100H y se llama a la interrupcion donde CL
+               ; Se carga AX con 100H y
                ; se llama a la interrupcion 10H
