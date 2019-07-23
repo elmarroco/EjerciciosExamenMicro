@@ -6,11 +6,12 @@
   ;   C[x] = ‘A’; 
   ;   }
 Proc:
+  PUSH BP
   SUB SP, 10  ; RESRVAR 10 ESPACIOS EN LA PILA
   MOV BP, SP
-  XOR AX, AX ; variable x
-  MOV CX, 10
+  MOV CX, 10 ; VARIABLE X
   FOR_LOOP:
   MOV BYTE [BP], 65
   INC BP
   LOOP FOR_LOOP
+  RET

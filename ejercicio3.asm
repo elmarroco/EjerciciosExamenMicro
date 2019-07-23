@@ -41,4 +41,4 @@ INT_HAS_#:
         POP SI
         POP DS
         POP BP
-        RET               ; Regresar a Main
+        IRET               ; Regresar a Main
